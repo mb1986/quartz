@@ -24,3 +24,18 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    activityVersion = '1.1.0'
+    appCompatVersion = '1.2.0'
+    constraintLayoutVersion = '2.0.4'
+    coroutines = '1.4.0'
+    lifecycleVersion = '2.2.0'
+    materialVersion = '1.2.1'
+    roomVersion = '2.2.5'
+    // testing
+    androidxJunitVersion = '1.1.2'
+    coreTestingVersion = '2.1.0'
+    espressoVersion = '3.3.0'
+    junitVersion = '4.13.1'
+}
